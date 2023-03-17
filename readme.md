@@ -1,13 +1,22 @@
-# PENJELASAN PROGRAM 
+#FUNGSIONALITAS PROGRAM
 
-Pertama disitu kita membuat fungsi untuk mencari item dari parameter mylist dan char, mylist itu list yang bakal kita pake dan char itu item yang bakal kita cari didalam mylist. Setelah itu kita membuat perulangan dimana sub_list itu adalah rentang panjang mylist jadi maksudnya for sub_list in mylist itu dia bakal ngejabarin mylist tadi. Karena sudah dijabarin mylist kita tadi menjadi sub_list kita buat baru pengkondisian buat nyari char yang kita pengen, jika char yang pengen kita cari itu ada di sub_list maka output akan menampilkan nilai indexnya. Kenapa ada index dan sub_index karena ada nested list atau list didalam list.
+Linked list adalah sekumpulan elemen bertipe sama, yang mempunyai keterurutan tertentu, yang setiap elemennya terdiri dari dua bagian Linked list juga merupakan suatu cara untuk menyimpan data dengan struktur sehingga dapat secara otomatis menciptakan suatu tempat baru untuk menyimpan data yang diperlukan.
 
-
-# CARA KERJA PROGRAM 
-
-Jika user menjalankan program, maka output akan meminta user untuk memasukkan item yang ingin dicari oleh user. Setelah user menginput item yang diinginkan maka program akan mensearching menggunakan metode linearsearch dan kemudian menampilkan index dan kolom dari item yang dicari oleh user
+Disini saya menggunakan struktur data Queue. Queue adalah struktur data linier yang menerapkan prinsip operasi dimana elemen data yang masuk pertama akan keluar lebih dulu. Prinsip ini dikenal dengan istilah FIFO (First In, First Out).
 
 
-# FUNGSIONALITAS PROGRAM 
 
-Linear Search merupakan sebuah teknik pencarian data dengan menelusuri semua data satu per satu. Apabila ditemukan kecocokan data maka program akan mengembalikan output, jika tidak maka pencarian akan terus berlanjut hingga akhir dari array tersebut. Algoritma ini tidak cocok untuk set data dengan jumlah besar karena kompleksitas dari algoritma ini adalah 0(n) dimana n adalah jumlah item. Jika data yang dicari berada paling akhir dari array, maka program harus menelusuri semua array terlebih dahulu
+#CARA KERJA PROGRAM(RESTORAN) DAN OUTPUT PROGRAM
+
+Dalam program ini kita membuat objek kelas Node dan kelas Queue. Kita juga menambahkan fungsi 'main' yang digunakan untuk meminta input dari pengguna dan menjalankan operasi pada antrian. Kemudian didalam fungsi 'main' kita membuat sebuah loop atau perulangan yang terus berjalan sampai pengguna memilih untuk keluar dari program. Dalam loop kita menampilkan pilihan menu yang tersedia untuk pengguna dengan menggunakan fungsi input.
+
+Jika pengguna menjalankan program maka output akan menampilkan pilihan menu yang tersedia, pengguna disuruh memilih, jika pengguna memilih pilihan 1 maka akan diminta untuk memasukan nomor antrian, nama, dan pesenan yang ingin dipesan agar bisa ditambahkan kedalam antrian. Jika pengguna memilih pilihan 2 maka output akan mencetak pesanan yang dihapus (atau untuk logika program yang saya buat menu ini seperti menghapus pesanan pembeli yang pertama masuk karena telah dilayani sehingga pembeli dapat keluar dari antrian). Jika pengguna memilih pilihan 3 maka akan menampilkan seluruh pesanan yang telah input oleh pengguna (atau menu ini berfungsi agar pengguna tau pembeli mana yang harus dilayani selanjutnya sesuai dengan antrian). Jika pengguna memilih pilihan 4 maka pengguna akan keluar, kemudian program keluar dari loop 'while true' dan program selesai.
+
+
+
+#METODE PROGRAM
+Pada program yang saya buat, saya menggunakan beberapa metode berikut :
+1. IsEmpty untuk memeriksa apakah antrian kosong
+2. Enqueue untuk menambahkan elemen ke akhir antrian
+3. Dequeue untuk menghapus elemen dari depan antrian
+4. Display untuk menampilkan antrian yang ada
