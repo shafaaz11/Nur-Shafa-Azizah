@@ -1,8 +1,8 @@
 #FUNGSIONALITAS PROGRAM
 
-Linked list adalah sekumpulan elemen bertipe sama, yang mempunyai keterurutan tertentu, yang setiap elemennya terdiri dari dua bagian Linked list juga merupakan suatu cara untuk menyimpan data dengan struktur sehingga dapat secara otomatis menciptakan suatu tempat baru untuk menyimpan data yang diperlukan.
+Linked list adalah sekumpulan elemen bertipe sama, yang mempunyai keterurutan tertentu, yang setiap elemennya terdiri dari dua bagian Linked list berfungsi untuk untuk menyimpan suatu data dengan terstruktur sehingga dapat secara otomatis menciptakan suatu tempat baru untuk menyimpan data yang diperlukan.
 
-Disini saya menggunakan struktur data Queue. Queue adalah struktur data linier yang menerapkan prinsip operasi dimana elemen data yang masuk pertama akan keluar lebih dulu. Prinsip ini dikenal dengan istilah FIFO (First In, First Out).
+Disini saya menggunakan struktur data Queue. Queue adalah struktur data linier yang menerapkan prinsip operasi dimana elemen data yang masuk pertama akan keluar lebih dulu. Prinsip ini dikenal dengan istilah FIFO (First In, First Out). Jadi program saya berfungsi untuk memudahkan pengguna dalam menginput data pembeli.
 
 
 
